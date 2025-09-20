@@ -1,0 +1,29 @@
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# AI/ML specific
+chroma_db/
+*.sqlite3
+data/
+*.pkl
+
+# Environment
+.env
+
+# OS
+.DS_Store
+.vscode/
+*.log
+
+# Large ML libraries (should be in requirements.txt instead)
+lib/
+torch/
+onnxruntime/
+bin/
+etc/
+share/
